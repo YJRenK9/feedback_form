@@ -50,10 +50,105 @@ nav{
     font-size: 16px;
     cursor: pointer;
     width: 100%;
+    transition: background-color 0.3s ease;
   }
   
   .feedback-form button:hover {
     background-color: #d94a77;
+  }
+
+  .rating {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .rating label {
+    font-size: 16px;
+  }
+
+  .rating select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .rating select:focus {
+    outline: none;
+    border-color: #ff0051;
+  }
+
+  .rating select:hover {
+    border-color: #ff0051;
+  }
+
+  .rating select option {
+    padding: 10px;
+  }
+
+  .rating select option:hover {
+    background-color: #f0f0f0;
+  }
+
+  .rating select option:focus {
+    background-color: #f0f0f0;
+  }
+
+  .rating select option:active {
+    background-color: #f0f0f0;
+  }
+
+  .rating select option:checked {
+    background-color: #ff0051;
+    color: #fff;
+  }
+
+  .rating select option:disabled {
+    background-color: #e0e0e0;
+    color: #999;
+  }
+
+  .rating select option:disabled:hover {
+    background-color: #e0e0e0;
+    color: #999;
+  }
+
+  .rating select option:disabled:focus {
+    background-color: #e0e0e0;
+    color: #999;
+  }
+
+  .rating select option:disabled:active {
+    background-color: #e0e0e0;
+    color: #999;
+  }
+
+  .rating select option:disabled:checked {
+    background-color: #e0e0e0;
+    color: #999;
+  }
+
+  .rating select option:disabled:checked:hover {
+    background-color: #e0e0e0;
+    color: #999;
+  }
+
+  .rating select option:disabled:checked:focus {
+    background-color: #e0e0e0;
+    color: #999;
+  }
+  .rating select option:disabled:checked:active {
+    background-color: #e0e0e0;
+    color: #999;
+  }
+
+  .rating div {
+    display: flex;
+    gap: 10px;
   }
   
   /* Media query for smaller screens */
